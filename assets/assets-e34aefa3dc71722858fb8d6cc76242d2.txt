@@ -1,0 +1,9 @@
+.gitkeep
+data/assets_data_Mouse Click Sound Effect.mp3
+data/atlasMap.png
+data/atlasMap.txt
+data/background_music.mp3
+data/font30/font30.fnt
+data/font30/font30.png
+data/font40/font40.fnt
+data/font40/font40.png
