@@ -1,5 +1,5 @@
-# Parker's Pathing Download
-Download Parker's Pathing Now!
+# Parker's Pathing Website
+Play Parker's Pathing Now!
 Source code will be released at a future date.
 
 # Motivational Quotes
