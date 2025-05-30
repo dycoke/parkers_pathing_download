@@ -24,6 +24,13 @@ function handleMouseUp(evt) {
   evt.preventDefault();
   evt.stopPropagation();
 }
+
+document.addEventListener("keydown", function(e) {
+    // Prevent default behavior for arrow keys
+    if(["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", " "].includes(e.key)) {
+      e.preventDefault();
+    }
+  }, { passive: false });
 document.addEventListener('contextmenu', event => event.preventDefault());
 document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
 document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
